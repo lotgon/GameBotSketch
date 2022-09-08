@@ -1,0 +1,1 @@
+tensorboard --logdir=d:\\projects\\bitbucket_lotgon\\NewWorld\\venv\\workspace\\models\\efficientdet_d0_coco17_tpu-32

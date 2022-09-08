@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0fc15335-6ca9-4e68-a42c-4eb4cd460b05}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>CondaEnv|CondaEnv|NewWorld</InterpreterId>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="capturer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exporter_main_v2.py" />
+    <Compile Include="main.py" />
+    <Compile Include="model_main_tf2.py" />
+    <Compile Include="mouse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectDetection.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\allImages\Raw\2021-11-26 01_07_00-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_07_15-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_07_22-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_07_43-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_07_51-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_07_58-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_08_04-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_08_21-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_08_28-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_08_38-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_08_45-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_08_53-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_19_10-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_19_58-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_20_13-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_20_24-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_20_38-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_29_27-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_29_34-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_29_40-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_29_49-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_30_09-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_30_16-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_30_28-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_31_07-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_31_13-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_31_18-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_31_23-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_31_28-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_31_34-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_31_42-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_32_05-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_32_10-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_32_18-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_32_25-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_32_33-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_33_01-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_33_09-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_38_34-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_39_01-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_39_10-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_39_35-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_39_42-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_39_48-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-26 01_40_07-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_06_44-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_07_28-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_07_45-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_08_24-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_09_23-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_09_38-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_10_20-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_10_57-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_11_05-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_12_44-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_13_16-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_13_26-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_13_31-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_14_11-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_14_35-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_14_48-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_15_07-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_15_12-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_15_35-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_16_43-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-27 02_19_45-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_35_27-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_35_38-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_36_20-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_36_30-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_36_42-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_36_49-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_37_17-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_37_25-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_38_39-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_38_56-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_39_03-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_40_23-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_40_33-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_40_40-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_41_57-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_42_05-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_43_51-New World.png" />
+    <Content Include="data\allImages\Raw\2021-11-28 01_45_55-New World.png" />
+    <Content Include="data\test\Raw\2021-11-27 02_11_18-New World.png" />
+    <Content Include="data\test\Raw\2021-11-27 02_11_50-New World.png" />
+    <Content Include="data\test\Raw\2021-11-27 02_12_01-New World.png" />
+    <Content Include="data\test\Raw\2021-11-27 02_12_26-New World.png" />
+    <Content Include="data\test\Raw\2021-11-27 02_19_59-New World.png" />
+    <Content Include="data\test\Raw\2021-11-27 02_20_53-New World.png" />
+    <Content Include="data\test\Raw\2021-11-27 02_21_12-New World.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="data\allImages\" />
+    <Folder Include="data\allImages\Raw" />
+    <Folder Include="data\test\" />
+    <Folder Include="data\test\Raw" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|NewWorld" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
